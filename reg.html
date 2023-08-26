@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title> Student Registration Page </title>
+</head>
+<body bgcolor="Yellow" text="Red">
+<center>
+<u><h1> Student Registration Form </h1></u>
+<hr width=50% color="Red">
+<style>
+table,th,td{
+border:2px solid rgb(0,0,0);
+}
+</style>
+<form>
+<table style="width=60%">
+<tr>
+<td>
+	First Name:
+</td>
+<td>
+	<input type="text" id="fname" name="fname" value="" placeholder="Enter first name">
+</td>
+</tr>
+<tr>
+<td>
+	Last Name:
+</td>
+<td>
+	<input type="text" id="lname" name="lname" value="" placeholder="Enter last name">
+</td>
+</tr>
+<tr>
+<td>
+	D.O.B
+</td>
+<td>
+	<input type="date" name="dob">
+</td>
+</tr>
+<tr>
+<td>
+	Gender:
+</td>
+<td>
+	<input type="radio" name="gender">Male<br>
+	<input type="radio" name="gender">Female<br>
+	<input type="radio" name="gender">Others<br>
+</td>
+</tr>
+<tr>
+<td>
+	Languages Known:
+</td>
+<td>
+	<input type="checkbox" name="lang">English<br>
+	<input type="checkbox" name="lang">Bengali<br>
+	<input type="checkbox" name="lang">Hindi<br>
+	<input type="checkbox" name="lang">Punjabi<br>
+</td>
+</tr>
+<tr>
+<td>
+	Select your City:
+</td>
+<td>
+	<select>
+	<option selected value="0">Select</option>
+	<option value="Kolkata">Kolkata</option>
+	<option value="Mumbai"> Mumbai </option>
+	<option value="Delhi"> Delhi </option>
+	<option value="Bangalore">Bangalore</option>
+</td>
+</tr>
+<tr>
+<td>
+	Address:
+</td>
+<td>
+	<textarea rows=10 cols=20>Enter your address</textarea>
+</td>
+</tr>
+<tr>
+<td>
+	Mobile No.:
+</td>
+<td>
+	<input type="text" id="val" name="val" size="1" value="+91">
+	<input type="text" id="mob" name="mob" value="" size="10" maxlength="10" placeholder="Enter Mobile No.">
+</td>
+</tr>
+<tr>
+<td>
+	Email Id :
+</td>
+<td>
+	<input type="email" id="mail" name="name" value="" placeholder="Enter E-Mail ID">
+</td>
+</tr>
+<tr>
+<td>
+	Password:
+</td>
+<td>
+	<input type="password" id="pwd" name="pwd" placeholder="Enter Password">
+</td>
+</tr>
+<tr>
+<td>
+	Retype Password:
+</td>
+<td>
+	<input type="password" id="pwd1" name="pwd1" placeholder="Re-type Password">
+</td>
+</tr>
+<tr>
+<td> 
+	<center><input type="button" value="Submit"></center>
+</td>
+<td>
+	<center><input type="button" value="Reset"></center>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
